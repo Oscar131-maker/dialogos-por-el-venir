@@ -1,0 +1,219 @@
+/**** Min desktop ****/
+@media only screen and(max-width:1100px) {
+   
+   //Top header
+   .top-header-section .right-block{
+     //Title   
+     h2.title-header{font-size: 30px; line-height: 40px;}
+
+   }
+
+}
+
+/**** Tablet desktop ****/
+@media only screen and (max-width:980px) {
+
+  //Menú
+  header#header nav.principal-menu{
+    width:80%;
+  }
+   
+  //Columns
+  .two-columns{
+    grid-template-columns:100% !important;
+  }
+  //Top header
+  section.top-header-section{
+   height:auto !important;
+    .right-block{
+      height:auto !important;
+      padding:150px 50px 100px 50px;
+    }
+  }
+
+  //About
+  .about-book .left-block{
+    grid-row: 2/1;
+  }
+
+  //Profile
+  .profiles-section .wrapper-section{
+      h2.title-section{
+        font-size:35px;
+      }
+
+     .card-content{
+       width:100%;
+     }
+    }
+
+  //Comming soon
+  .comming-soon{
+    height:auto !important;
+    .right-block figure img{
+      height:auto !important;
+    }
+  }
+
+  //Footer widget
+  .widget-footer-container{
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+  }
+
+} //End media
+
+/** Tablet size **/
+@media only screen and (max-width:850px){
+  
+  //Menú
+  header#header nav.principal-menu{
+    width:100%;
+  }
+
+  //Header
+  header#header .logo-header h1{
+    line-height:15px;
+    a{
+      font-size:20px;
+    }
+  }
+  
+  //YouTube
+  .podcast-youtube .swiper-podcast .swiper-button-prev, .podcast-youtube .swiper-podcast .swiper-container-rtl .swiper-button-prev{
+    left:15px;
+  }
+  .podcast-youtube .swiper-podcast .swiper-button-next, .podcast-youtube .swiper-podcast .swiper-container-rtl .swiper-button-prev{
+    right:15px;
+  }
+
+  //Profile
+  .profiles-section .wrapper-section{
+    padding:50px;
+    .card-content{
+      grid-template-columns:100%;
+    }
+  }
+
+} //End media
+
+@media only screen and (max-width:570px){
+  
+  //Menú
+  header#header nav.principal-menu{
+    padding:20px !important;
+  }
+  header#header nav.principal-menu .list-content{
+    padding:0px;
+    li a{
+      font-size:40px;
+      line-height:60px;
+    }
+  }
+
+  //Widget container
+  .widget-footer-container{
+    grid-template-columns:100%;
+    padding:50px;
+  }
+
+  //Coming soon
+  .comming-soon .left-block{
+    padding:80px 50px;
+  }
+}
+
+@media only screen and (max-width:530px){
+  .podcast-youtube .swiper-podcast .swiper-button-prev, .podcast-youtube .swiper-podcast .swiper-container-rtl .swiper-button-prev{
+    left:0;
+    padding:0px 5px;
+  }
+  .podcast-youtube .swiper-podcast .swiper-button-next, .podcast-youtube .swiper-podcast .swiper-container-rtl .swiper-button-prev{
+    right:0;
+    padding:0px 5px;
+  }
+}
+
+/** Mobile size **/
+@media only screen and (max-width:420px){
+
+  //Top header
+  section.top-header-section .right-block{
+    padding: 150px 20px 100px 20px;
+    h2.title-header{
+      font-size: 25px;
+      line-height: 30px;
+    }
+    p{
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+  
+  //About section
+  .about-book .left-block{
+    padding: 50px 30px;
+    .title-section{
+      font-size:20px;
+      line-height:35px;
+    }
+    ol li {
+      font-size: 18px;
+      margin-bottom: 15px;
+      line-height: 28px;
+  }
+}
+
+//Profile
+.profiles-section .wrapper-section{
+  h2.title-section {
+    font-size: 25px;
+    text-align: start;
+    line-height:30px;
+  }
+  p{
+    font-size: 16px;
+    text-align: start;
+  }
+  hr{
+    width:100%;
+  }
+  .card-content{
+    margin-top: 0;
+    .card{padding:30px;}
+  }
+
+}
+
+// YouTube section
+.podcast-youtube{
+  padding:50px 0px;
+  h2.title-section{
+    font-size:25px;
+    line-height:35px;
+  }
+}
+
+//Comming soon
+.comming-soon{
+  .left-block{
+    padding:80px 20px;
+    h2.title-section{
+      font-size:30px;
+    }
+     p{
+      font-size:16px;
+    }
+  }
+}
+
+}
+
+/** Ultra small **/
+@media only screen and (max-width:360px){
+  .profiles-section .wrapper-section .card-content .card .img-profile img{
+    width:100px;
+    height:100px;
+  }
+}
+
